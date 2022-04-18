@@ -1,0 +1,28 @@
+.red .react-datepicker-wrapper .react-datepicker__input-container input {
+  border-color: rgba(187, 63, 63, 0.767);
+  box-shadow: 0 2px 4px 0 rgba(187, 63, 63, 0.767);
+  border-radius: 0.28571429rem;
+}
+
+.red
+  .react-datepicker-wrapper
+  .react-datepicker__input-container
+  .react-datepicker-ignore-onclickoutside {
+  border-color: rgba(187, 63, 63, 0.767);
+  box-shadow: 0 2px 4px 0 rgba(187, 63, 63, 0.767);
+  border-radius: 0.28571429rem;
+}
+
+.grey .react-datepicker-wrapper .react-datepicker__input-container input {
+  border-color: rgba(34, 36, 38, 0.12);
+  box-shadow: 0 2px 4px 0 rgba(34, 36, 38, 0.12);
+  border-radius: 0.28571429rem;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker-wrapper input {
+  width: 100%;
+}

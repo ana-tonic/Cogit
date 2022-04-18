@@ -1,0 +1,8 @@
+.ui.big.label {
+  min-width: 200px;
+  /* width: -moz-fit-content; */
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgba(107, 185, 248, 0.801);
+}

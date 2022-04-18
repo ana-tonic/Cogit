@@ -1,0 +1,31 @@
+.MiniTaskContainer {
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  justify-content: space-between;
+
+  position: relative;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  margin: 1rem 0;
+  padding: 0em 0em;
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  background-color: rgba(209, 229, 245, 0.801);
+}
+
+.MiniTaskContainer.red {
+  background-color: rgb(252, 94, 94);
+}
+
+.MiniTaskContainer.green {
+  background-color: rgb(114, 226, 104);
+}
+
+.ui.header.MiniTask {
+  margin-right: 10px;
+}
+
+.MiniTask.icons {
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+form.NewProjectForm {
+  background-color: rgba(209, 229, 245);
+  /* background-color: beige; */
+  color: white;
+  font-weight: bold;
+  border: 1px solid #d4d4d5;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 2px 4px 0 rgba(34, 36, 38, 0.12);
+  position: absolute;
+  top: 0px;
+  left: 310px;
+
+  z-index: 2;
+}
+
+.NewProjectForm .form-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewProjectForm input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.NewProjectForm .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewProjectForm .InputFields {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftSide {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.NewProjectForm textarea {
+  resize: none;
+}
+
+form.NewProjectForm .form-inner input[type="submit"] {
+  color: rgb(48, 46, 46);
+  /* background-color: #e0e1e2; */
+  background-color: rgb(65, 149, 218);
+  border-radius: 0.28571429rem;
+  height: 40px;
+  font-weight: bold;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form.NewProjectForm .form-inner input[type="submit"]:hover {
+  cursor: pointer;
+  /* background-color: rgb(170, 170, 170); */
+  background-color: rgb(49, 139, 212);
+}
+
+.NewProjectForm .form-group input {
+  border: 1px solid grey;
+}
+
+.template.tiny.ui.red.button {
+  margin: 5px;
+}
+
+#description {
+  padding: 20px 10px;
+  line-height: 28px;
+}

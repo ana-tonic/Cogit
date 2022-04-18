@@ -1,0 +1,26 @@
+.MainProfilePage {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid rgba(107, 107, 107, 0.39);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.UpperProfilePage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ImageAndDetails {
+	display: flex;
+	flex-direction: row;
+}
+
+.ProfileDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

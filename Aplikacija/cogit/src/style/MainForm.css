@@ -1,0 +1,30 @@
+.MainForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftMainForm {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.RightMainForm {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.Upper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Lower {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}

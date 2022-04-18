@@ -1,0 +1,10 @@
+.fixed-width {
+	width: 300px;
+	display: flex;
+	flex-direction: column-reverse;
+	min-width: 300px;
+	min-height: 200px;
+	overflow: scroll;
+	overflow-x: hidden;
+	padding: 3px;
+}

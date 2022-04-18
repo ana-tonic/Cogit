@@ -1,0 +1,22 @@
+.MyTasksContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.MyTasksLeft{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.MyTasksLeftUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MyTasksRight{
+    display: flex;
+    flex-grow: 1;
+    width:50%;
+}

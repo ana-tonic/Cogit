@@ -1,0 +1,37 @@
+.nav.icon {
+	padding-right: 25px;
+}
+
+.nav.ui.list {
+	max-height: 100px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.ui.vertical.menu {
+	width: inherit;
+}
+
+.noviProjekat:hover {
+	cursor: pointer;
+}
+
+.navTop {
+	display: flex !important;
+	align-items: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.noviProjekat.plus.icon.hidden {
+	display: none;
+}
+
+.NavProfile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 15px;
+}

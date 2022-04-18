@@ -1,0 +1,13 @@
+.MainAdmin {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.AdminInput {
+  border: "2px solid teal";
+  border-radius: "5px";
+  padding: "3px";
+  margin-bottom: "5px";
+}

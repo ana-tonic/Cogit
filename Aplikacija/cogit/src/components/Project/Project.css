@@ -1,0 +1,47 @@
+.ProjectContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ProjectUpper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 93.5px;
+}
+
+.currentProjectName {
+  background-color: beige;
+  border-radius: 0.28571429rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ProjectDown {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  height: max-content;
+  flex-grow: 1;
+}
+
+.project.button {
+  height: 60px;
+}
+
+.ListsLoader {
+  position: relative;
+  background: #fff;
+  margin: 1rem 0;
+  padding: 1em 1em;
+  border-radius: 0.28571429rem;
+
+  display: flex;
+  flex-grow: 1;
+  height: 100px;
+}

@@ -1,0 +1,197 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  /* border-color: grey;
+  border-style: solid;*/
+  border-radius: 7px;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  height: 4rem;
+  margin: 7px;
+  background-color: rgba(107, 185, 248, 0.801);
+  padding-left: 5%;
+}
+
+.lab {
+  text-align: center;
+  font-size: 0.55cm;
+  margin: 5px;
+}
+
+.numOfMessages {
+  background-color: #237dc3;
+  color: white;
+  border-radius: 3px;
+  height: 0;
+  padding: 7%;
+  width: auto;
+  height: auto;
+}
+
+.numOfMessagesWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 7;
+  height: 100%;
+}
+
+.contPart {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 5;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.75%;
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  border-color: rgb(202, 202, 202);
+  border-style: groove;
+  border-radius: 5px;
+  margin: 1%;
+  min-width: 25%;
+  height: 75vh;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba(209, 229, 245, 0.801);
+}
+
+.conList {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.messageWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  justify-content: center;
+  word-break: break-all;
+  font-size: 18px;
+  padding: 7px;
+  width: auto;
+  max-width: 200px;
+}
+.messageO {
+  background-color: gray;
+}
+
+.messageD {
+  border-style: groove;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.messageWrap2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  border-color: gray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 1%;
+  justify-content: space-between;
+  flex-grow: 1;
+  max-width: 45%;
+  background-color: rgba(209, 229, 245, 0.801);
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.controls .input {
+  margin-bottom: 5%;
+}
+
+.messageListPlaceHolder {
+  flex-grow: 1;
+  max-width: 45%;
+}
+.chatBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom-color: gray;
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+  padding: 1%;
+  background-color: rgba(209, 229, 245, 0.801);
+}
+
+/* rgba(209, 229, 245, 0.801) */
+
+.messBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputD {
+  display: flex;
+  flex-grow: 1;
+}
+
+.inp {
+  display: flex;
+  flex-grow: 1;
+}
+
+.plusD {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.messageList {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chatPage {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.arrowIcon {
+  cursor: pointer;
+}

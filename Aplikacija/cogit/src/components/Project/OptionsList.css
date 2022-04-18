@@ -1,0 +1,8 @@
+.optionsList.project.item {
+  cursor: pointer;
+}
+
+.optionsList.project.item.blue {
+  cursor: pointer;
+  background-color: rgb(157, 157, 250);
+}

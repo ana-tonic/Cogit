@@ -1,0 +1,19 @@
+.TeamMembers.container{
+    width:auto;
+    flex-grow: 1;
+}
+
+.TeamMembers.Upper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+
+.TeamMembers.Down {
+    width: auto;
+}
+
+.TeamMembers.ui.large.list {
+    
+}

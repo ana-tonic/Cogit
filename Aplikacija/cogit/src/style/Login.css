@@ -1,0 +1,156 @@
+.Login * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: montserrat, sans-serif;
+}
+
+.Login input,
+button {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+@font-face {
+	font-family: "HappyHell";
+	src: local(HappyHell), url("../fonts/Happy-Hell.ttf") format("truetype");
+}
+
+.HappyHellFont {
+	font-family: HappyHell;
+}
+
+.LoginDescription {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: space-around;
+	background-color: #e6e6e6b8;
+	border-radius: 5px;
+	padding-right: 10px;
+}
+
+.LoginImage {
+	position: absolute;
+	display: flex;
+	top: 10%;
+	align-items: center;
+	left: 10px;
+}
+.LoginLogo {
+	border-radius: 5px;
+	background-image: url("./Login\ image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100px;
+	width: 100px;
+}
+
+.Login {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e1e9f3;
+	background-image: url("./3.webp");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.Login form {
+	display: block;
+	position: relative;
+}
+
+.Login form::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: 1;
+	background-image: linear-gradient(to bottom right, #88dce2, #291c72);
+}
+
+.Login form .form-inner {
+	position: relative;
+	display: block;
+	background-color: #fff;
+	padding: 30px;
+	z-index: 2;
+}
+
+.Login form .form-inner h2 {
+	color: rgb(0, 0, 0);
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.Login form .form-inner .form-group {
+	display: block;
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+.form-inner .form-group label {
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	margin-bottom: 5px;
+	transition: 0.4s;
+}
+
+.form-inner.login .form-group:focus-within label {
+	color: #291c72;
+}
+
+.Login form .form-inner .form-group input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	background-color: #f8f8f8;
+	border-radius: 8px;
+	transition: 0.4s;
+}
+
+.Login form .form-inner .form-group input:focus {
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Login form .form-inner input[type="submit"],
+.welcome button,
+.registerButton,
+.backButton {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 8px;
+	background-image: linear-gradient(
+		to right,
+		#88dce2 50%,
+		#88dce2 50%,
+		#291c72
+	);
+	background-size: 200%;
+	background-position: 0%;
+	transition: 0.4s;
+	color: #fff;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.Login form .form-inner input[type="submit"]:hover,
+.welcome button:hover,
+.registerButton:hover,
+.backButton:hover {
+	background-position: 100% 0%;
+}
+
+.registerButton {
+	margin-left: 10px;
+}
